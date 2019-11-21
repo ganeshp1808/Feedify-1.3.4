@@ -1,0 +1,190 @@
+body
+{
+font-family: 'Ubuntu Mono', monospace;
+}
+h1,.display-1{
+	font-weight:400;
+}
+h2,.display-2{
+	font-weight:500;
+}
+h3,.display-3{
+	font-weight:300;
+}
+h4,h5,h6,p,.display-4.display-5,.display-6{
+	font-weight:100;
+}
+.navbar {
+	background-color:#d46108;
+	}
+.navbar-brand
+{
+	font-weight:100;
+	font-size:1.5em;
+	font-stretch:1rem;
+	line-height:2rem;
+	color:black;
+}
+.navbar-nav>li>a:hover
+{
+	font-weight:300;
+	font-size:1.3rem;
+	font-stretch:1.1rem;
+	line-height:1.3rem;
+	  text-shadow: 2px 2px #fc560f;
+	-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+.navbar-nav>li>a{
+	font-weight:200;
+	font-size:1.2rem;
+	font-stretch:1rem;
+	line-height:1.3rem;
+	width:160px;
+	color:#1c0e03;
+}
+.dropdown-item
+{
+	font-weight:100;
+	font-size:1.3rem;
+	font-stretch:1rem;
+	line-height:1.3rem;
+	color:blue;
+}
+.dropdown-item:hover
+{
+	font-weight:100;
+	font-size:1.4rem;
+	font-stretch:1.1rem;
+	line-height:1.3rem;
+	color:blue;
+	-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+table
+{
+	width:80%;
+}
+#form
+{
+	width:50%;
+	margin:auto;
+	margin-top:150px;
+}
+.form-control
+{
+	background-color:#fae6c0;
+	border-radius:20px;
+}
+.form-control:focus {
+
+    background-color:#b4f0e9;
+}
+.form-control::placeholder	
+{
+	color:black;
+}
+.form-control::input
+{
+	color:black;
+}
+table
+{
+	width:70%;
+}
+.btn
+{
+	font-size:1.5rem;
+	color:white;
+	background-color:#ed0067;
+	height:50px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	border-radius:20px;
+}
+#button_box
+{
+	width:50%;
+	background-color:#0bbf89;
+}
+#button_box .btn
+{
+	font-size:1rem;
+	height:60px;
+	width:200px;
+}
+.btn:hover
+{
+	background:white;
+	color:#ed0067;
+	border-radius:10px;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+#secondsection
+{
+	margin-top:150px;
+}
+#secondsection h1,.display-3,.display-6
+	{
+		animation-duration:2s;
+	}
+
+#bomb
+{
+	width:10%;margin-left:auto;margin-right:auto;
+}
+#pip
+{
+	border:2px solid; width:80%;margin-left:auto;margin-right:auto;
+}
+@media only screen and (max-width:1024px){
+	.navbar-nav>li>a{
+	font-weight:200;
+	font-size:0.9rem;
+	font-stretch:1.5rem;
+	line-height:1rem;
+	width:110px;
+	color:#1c0e03;
+}
+.navbar-nav>li>a:hover
+{
+	font-weight:300;
+	font-size:1.2rem;
+	font-stretch:1.5rem;
+	line-height:1rem;
+	-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+
+}
+@media only screen and (max-width:800px){
+	#form
+{
+	width:70%;
+}
+#button_box .btn
+{
+	font-size:0.7rem;
+	height:60px;
+	width:150px;
+}
+table
+{
+	width:100%;	
+}
+#bomb
+{
+	width:40%;margin-left:auto;margin-right:auto;
+}
+h1,h2{font-size:1.5rem;} 
+	.display-3{font-size:2rem;}
+	.display-5{font-size:1.5rem;}
+	.display-6{font-size:1.3rem;}
+}

@@ -1,0 +1,61 @@
+body
+{
+font-family: 'Ubuntu Mono', monospace;
+}
+h1,.display-1{
+	font-weight:400;
+}
+h2,.display-2{
+	font-weight:500;
+}
+h3,.display-3{
+	font-weight:300;
+}
+h4,h5,h6,p,.display-4.display-5,.display-6{
+	font-weight:100;
+}
+.navbar {
+	background-color:#0cc490;
+	}
+.navbar-brand
+{
+	font-weight:100;
+	font-size:2rem;
+	font-stretch:1rem;
+	line-height:1rem;
+	color:black;
+}
+	.pop
+	{
+		font-weight:200;
+		font-size:1.5rem;
+		font-stretch:0.5rem;
+		line-height:0.7rem;
+		color:brown;
+		text-transform:uppercase;
+	}
+.navbar-nav>li>a{
+	font-weight:200;
+	font-size:1.3rem;
+	font-stretch:1.5rem;
+	line-height:1.3rem;
+	width:200px;
+	color:#133e42;
+}
+.navbar-nav>li>a:hover
+{
+	font-weight:300;
+	font-size:1.4rem;
+	font-stretch:1.5rem;
+	line-height:1.4rem;
+	  text-shadow: 2px 2px #fccd0f;
+	-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+@media only screen and (max-width:546px){
+	.display-3{font-size:2rem;}
+	.display-6{font-size:1.9rem;}
+	.thurs{margin-top:50px;}
+	h1{font-size:1.8rem;}
+}

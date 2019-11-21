@@ -1,0 +1,149 @@
+body
+{
+font-family: 'Ubuntu Mono', monospace;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url("imgs/college.jpg");
+}
+h1,.display-1{
+	font-weight:400;
+}
+h2,.display-2{
+	font-weight:500;
+}
+h3,.display-3{
+	font-weight:300;
+}
+h4,h5,h6,p,.display-4.display-5,.display-6{
+	font-weight:100;
+}
+.navbar {
+	background-color:#fcb572;
+	}
+.navbar-brand
+{
+	color:black;
+	font-weight:100;
+	font-size:2rem;
+	font-stretch:1rem;
+	line-height:1.4rem;
+}
+.navbar-nav>li>a{
+	font-weight:200;
+	font-size:1.4rem;
+	font-stretch:2rem;
+	line-height:1.4rem;
+	width:150px;
+	color:black;
+}
+.navbar-nav>li>a:hover
+{
+	font-weight:300;
+	font-size:1.5rem;
+	font-stretch:2rem;
+	line-height:0.8rem;
+	-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+.dropdown
+{
+	background-color:#021104;
+	
+}
+.dropdown-item
+{
+	font-weight:100;
+	font-size:1rem;
+	font-stretch:1rem;
+	line-height:1rem;
+	color:blue;
+}
+.dropdown-item:hover
+{
+	font-weight:100;
+	font-size:1.2rem;
+	font-stretch:1.1rem;
+	line-height:1rem;
+	color:blue;
+	-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+.btn
+{
+	font-size:1.3rem;
+	color:white;
+	background-color:#058B90;
+	height:50px;
+}
+.btn:hover
+{
+	font-size:1.7rem;
+	color:#058B90;
+	background-color:white;
+	height:70px;
+	border-radius:5px;
+-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+.form-control
+{
+	background-color:#fae6c0;
+	border-radius:20px;
+}
+.form-control:focus {
+
+    background-color:#b4f0e9;
+}
+.form-control::placeholder	
+{
+	color:black;
+}
+.form-control::input
+{
+	color:black;
+}
+#secondsection
+{
+	margin-top:60px;	
+}
+#secondsection h1,.display-3,.display-6
+	{
+		animation-duration:2s;
+	}
+.mon{background-color:#9cf536;}
+.tue{background-color:#dff207;}
+.wed{background-color:#ff8205;}
+.thurs{background-color:#ff0533;}
+.card
+{
+	border-radius:100px;
+}
+.card img
+{
+	height:300px;
+	border-radius:100px;
+}
+@media only screen and (max-width:1024px){
+	#secondsection{
+color:white;
+	}
+}
+@media only screen and (max-width:546px){
+	.display-3{font-size:2.6rem;}
+	.display-6{font-size:1.9rem;}
+	.thurs{margin-top:50px;}
+	h1{font-size:1.8rem;}
+}
+@media only screen and (max-width:420px){
+	.display-3{font-size:2.2rem;}
+	.display-6{font-size:1.2rem;}
+	.thurs{margin-top:50px;}
+}
+@media only screen and (max-width:321px){
+	.display-3{font-size:1.6rem;}
+	.display-6{font-size:0.9rem;}
+	.thurs{margin-top:50px;}
+}

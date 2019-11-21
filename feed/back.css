@@ -1,0 +1,140 @@
+body
+{	
+	background:#bcf20a;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+body
+{
+font-family: 'Ubuntu Mono', monospace;
+}
+#registerbox
+
+{	background:linear-gradient(#59baa7,rgb(3,70,158,0.7));
+box-shadow: 30px 30px 15px #000000;
+	width:75%;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	border-radius:2%;
+}
+#form
+{
+	width:70%;
+	margin:auto;
+	
+}
+.form-control
+{
+	background-color:#fae6c0;
+	border-radius:20px;
+}
+.form-control:focus {
+
+    background-color:#b4f0e9;
+}
+.form-control::placeholder
+{
+	color:black;
+}
+.form-control::input
+{
+	color:black;
+}
+.pon
+{
+	width:80%;
+}
+.pin
+{
+	width:90%;
+}
+.pam{
+	width:100%;
+}
+.pos
+{
+	width:70%;
+}
+.impo
+{
+	font-size:0.9rem;
+	color:#292618;
+}
+.btn
+{
+	font-size:1.5rem;
+	color:white;
+	background-color:#04825e;
+	height:50px;
+	width:130px;
+	margin-bottom:50px;
+	border-radius:20px;
+}
+.btn:hover
+{
+	border-radius:10px;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+#match
+{
+	float:left;
+	color:red;
+}
+@media only screen and (max-width:1078px){
+.impo
+{
+	font-size:0.8rem;
+	color:#292618;
+}
+#form
+{
+	width:70%;
+	margin:auto;
+	
+}
+
+
+}
+@media only screen and (max-width:991px){
+.form-control
+{
+	width:100%;
+	margin-top:30px;
+}
+.pon
+{
+	width:100%;
+}
+.pin
+{
+	width:100%;
+}
+.pam{
+	width:100%;
+}
+.pos
+{
+	width:100%;
+}
+#registerbox
+
+{	
+	border-radius:0%;
+}
+body
+{	
+	background:#f2c90a;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+}
+@media only screen and (max-width:512px){
+	.impo
+{
+	font-size:0.6rem;
+	color:#292618;
+}
+}

@@ -1,0 +1,84 @@
+body
+{
+font-family:Calibri;
+background-color:rgba(23, 24, 26);
+}
+#loginbox
+{
+	text-align:center;
+	background:linear-gradient(#ffab2e,#c9f005);
+	width:40%;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	border-radius:10%;
+}
+#user
+{
+	margin-left:20%;
+	float:left;color:red;
+}
+#pass
+{
+	margin-left:20%;
+	float:left;color:red;
+}
+.form-control
+{
+	margin:auto;
+	width:60%;
+	background-color:#fffcdb;
+	border-radius:20px;
+}
+.btn
+{
+	font-size:1.5rem;
+	color:black;
+	background-color:#e05f02;
+	height:50px;
+	width:100px;
+	margin-bottom:50px;
+	border-radius:25px;
+}
+a
+{
+	color:black;
+	font-size:1rem;
+}
+.form-control::placeholder
+{
+	color:black;
+}
+.btn:hover
+{
+	border-radius:15px;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+@media only screen and (max-width:1030px){
+#loginbox
+{
+	border-radius:0px;
+}
+}
+
+
+@media only screen and (max-width:790px){
+		#loginbox
+	{
+		width:80%;
+	}
+	.form-control
+	{
+		width:70%;
+	}
+	#user
+	{
+		margin-left:15%;
+	}
+	#pass
+	{
+		margin-left:15%;
+	}
+}

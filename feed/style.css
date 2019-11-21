@@ -1,0 +1,100 @@
+body
+{
+font-family: 'Bree Serif', serif;
+}
+h1,.display-1{
+	font-weight:400;
+}
+h2,.display-2{
+	font-weight:500;
+}
+h3,.display-3{
+	font-weight:300;
+}
+h4,h5,h6,p,.display-4.display-5,.display-6{
+	font-weight:100;
+}
+.navbar {
+	background-color:#0a1830;
+	}
+.navbar-brand
+{
+	font-weight:100;
+	font-size:2rem;
+	font-stretch:1rem;
+	line-height:1rem;
+}
+.navbar-nav>li>a{
+	font-weight:200;
+	font-size:1.3rem;
+	font-stretch:2rem;
+	line-height:0.6rem;
+	width:150px;
+	color:white;
+}
+
+.navbar-nav>li>a:hover
+{
+	font-weight:300;
+	font-size:1.5rem;
+	font-stretch:2rem;
+	line-height:0.8rem;
+	-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+.dropdown
+{
+	background-color:#0a1830;
+	
+}
+.dropdown-item
+{
+	font-weight:100;
+	font-size:1rem;
+	font-stretch:1rem;
+	line-height:1rem;
+	color:blue;
+}
+.dropdown-item:hover
+{
+	font-weight:100;
+	font-size:1.2rem;
+	font-stretch:1.1rem;
+	line-height:1rem;
+	color:blue;
+	-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+.btn
+{
+	font-size:1.5rem;
+	color:white;
+	background-color:#058B90;
+	height:8%;
+}
+#wantit .display-2,h2,h5
+{
+	animation-duration:3s;
+}
+.btn:hover
+{
+	font-size:1.7rem;
+	color:#058B90;
+	background-color:white;
+	height:9%;
+	border-radius:5px;
+-webkit-transition: 0.7s ease-out;
+	-moz-transition: 0.7s ease-out;
+	transition: 0.7s ease-out;
+}
+#fourthsection
+{
+	font-family: "Neucha", cursive;
+	background-color:#BDE7F9;
+}
+#fourthsection h4
+{
+	font-style:italic;
+}

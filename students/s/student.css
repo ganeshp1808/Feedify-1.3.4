@@ -1,0 +1,54 @@
+body
+{
+font-family: 'Ubuntu Mono', monospace;
+
+}
+.btn
+{
+	align:center;
+	font-size:1.5rem;
+	color:white;
+	background-color:#040a0d;
+	height:50px;
+	width:200px;
+	margin-bottom:50px;
+	border-radius:20px;
+}
+#impo
+	{
+		background-color:#4fffca;
+		width:250px;
+	}
+	#msg
+	{
+		color:red;
+		font-style:italic;
+		background-color:#98ed9b;
+		margin-left:auto;
+		margin-right:auto;
+	}
+.btn:hover
+{
+	color:green;
+	border-radius:10px;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+table
+{
+	font-size:1rem;
+	border-radius:1px;
+	background:#abcdef;
+}
+.form-control input
+{
+	font-size:1.5rem;
+}
+@media only screen and (max-width:900px){
+	.display-3
+	{
+		font-size:2rem;
+	}
+	h1,h2,h3,h4,h5,h6{font-size:1rem;}
+}
